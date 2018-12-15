@@ -1,0 +1,103 @@
+#twitter, #youtube, #discord
+{
+	display: inline;
+}
+
+body
+{
+	font-family: Montserrat, Arial;
+	background: url('https://source.unsplash.com/collection/520359/1900x1700');
+}
+
+header
+{
+    background: url('../images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+footer h3, nav a
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5em;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+a
+{
+color: black;
+text-decoration: none;
+}
+
+footer
+{
+    display: flex;
+    background: url('../images/separateur.png') repeat-x top;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+footer p, footer ul
+{
+    font-size: 1em;
+}
+
+footer h3
+{
+    font-size: 1.3em;
+}
+
+#twitter :hover
+{
+	color: #55acee;
+}
+
+#youtube :hover
+{
+	color: #FF0000;
+}
+
+#discord :hover
+{
+	color: #7289DA;
+}
+
+a:hover
+{
+	color: grey;
+}
+
+section h1
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+.kimi
+{
+    border: 3px solid black;
+}
