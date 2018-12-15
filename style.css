@@ -1,7 +1,12 @@
+#twitter, #youtube, #discord
+{
+	display: inline;
+}
+
 body
 {
 	font-family: Montserrat, Arial;
-	background: url('images/english-subtiles-screen.jpeg');
+	background: url('https://source.unsplash.com/collection/520359/1900x1700');
 }
 
 header
@@ -42,13 +47,10 @@ nav a:hover
     border-bottom: 3px solid #760001;
 }
 
-a {
+a
+{
 color: black;
 text-decoration: none;
-}
-
-a:hover {
-color: grey; 
 }
 
 footer
@@ -56,6 +58,7 @@ footer
     display: flex;
     background: url('images/separateur.png') repeat-x top;
     padding-top: 25px;
+    justify-content: space-around;
 }
 
 footer p, footer ul
@@ -66,4 +69,24 @@ footer p, footer ul
 footer h3
 {
     font-size: 1.3em;
+}
+
+#twitter :hover
+{
+	color: #55acee;
+}
+
+#youtube :hover
+{
+	color: #FF0000;
+}
+
+#discord :hover
+{
+	color: #7289DA;
+}
+
+a:hover
+{
+	color: grey;
 }
