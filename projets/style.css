@@ -99,5 +99,22 @@ section h1
 
 .kimi
 {
-    border: 3px solid black;
+    padding: 7px;
+    margin-left: 45%;
+    text-align: center;
+    border: 3px solid #7289DA;
+    border-radius: 10px;
+    background-color: #7289DA;
+}
+
+.kimi a:hover
+{
+    color: #23272A;
+    border-bottom: 3px solid #23272A;
+}
+
+article iframe
+{
+    margin-left: 38%;
+    margin-bottom: 30px;
 }
