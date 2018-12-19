@@ -17,7 +17,7 @@
   z-index: 1;
 
   display: block;
-  background-image: url('https://source.unsplash.com/1900x1700/?cats');
+  background-image: url('https://source.unsplash.com/collection/3693483/1900x1700');
   width: 1900px;
   height: 1700px;
 
@@ -29,7 +29,7 @@
 }
 
 .content {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -92,6 +92,7 @@ footer
     border-top: 3px solid #7289DA;
     padding-top: 25px;
     justify-content: space-around;
+    margin: 20px;
 }
 
 footer p, footer ul
@@ -156,4 +157,5 @@ article iframe
 section img
 {
     margin-left: 45%;
+    padding: 20px;
 }
